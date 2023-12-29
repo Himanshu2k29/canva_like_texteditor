@@ -1,0 +1,130 @@
+body{
+    background-color: #161616;
+}
+
+.headerBtn{
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color:  #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.headerBtn:hover {
+    background-color: #57bde1;
+}
+
+.flex{
+    display: flex;
+    margin: 10px;
+}
+
+.template{
+    position: relative;
+    border: 1px solid #ccc;
+    height: 93vh;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 8px;
+    background-color: #7e4a4a;
+}
+
+#changes{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #7e4a4a;
+
+}
+
+/* fonts css */
+.picker {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;  /* Stacks items vertically */
+    align-items: center;     /* Centers items horizontally */
+    justify-content: space-evenly;  /* Spaces out items horizontally */
+}
+
+label{
+    font-size: 30px;
+    display: block;
+}
+
+#font-select{
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#size-select{
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* for Color dots Representation */
+#color-select {
+    -webkit-appearance: none; /* Remove default arrow in Safari */
+    -moz-appearance: none; /* Remove default arrow in Firefox */
+    appearance: none; /* Remove default arrow in other browsers */
+    padding: 5px 25px 5px 10px; /* Adjust padding as needed */
+    background-image: url('data:image/svg+xml;utf8,<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="4" fill="%23FFF"/></svg>'); /* Custom color dot */
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+#color-select option {
+    padding-right: 25px; /* Space for color dot */
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/* Styles for the color dots in the options */
+#color-select option[data-color="#000000"] {
+    background-color: #000000;
+}
+
+#color-select option[data-color="#FFFFFF"] {
+    background-color: #FFFFFF;
+}
+
+#color-select option[data-color="#FF0000"] {
+    background-color: #FF0000;
+}
+
+#color-select option[data-color="#FFA500"] {
+    background-color: #FFA500;
+}
+
+#color-select option[data-color="#FFFF00"] {
+    background-color: #FFFF00;
+}
+
+#color-select option[data-color="#00FF00"] {
+    background-color: #00FF00;
+}
+
+#color-select option[data-color="#0000FF"] {
+    background-color: #0000FF;
+}
+
+#color-select option[data-color="#4B0082"] {
+    background-color: #4B0082;
+}
+
+#color-select option[data-color="#7F00FF"] {
+    background-color: #7F00FF;
+}
